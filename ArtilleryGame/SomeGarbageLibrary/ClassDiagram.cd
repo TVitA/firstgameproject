@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="Collider &lt;- PolygonCollider &lt;- BoxCollider">
+    <Position X="14.896" Y="6.754" Height="0.291" Width="2.587" />
+  </Comment>
+  <Class Name="SomeGarbageLibrary.Artillery">
+    <Position X="15.5" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAIAIIAAAAAAQAAAAAQAAEEAQAAAEAABGAgAAA=</HashCode>
+      <FileName>Artillery.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Right" Position="0.121" />
+  </Class>
+  <Class Name="SomeGarbageLibrary.LightArtillery">
+    <Position X="13.75" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LightArtillery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SomeGarbageLibrary.MediumArtillery">
+    <Position X="15.5" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MediumArtillery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SomeGarbageLibrary.HeavyArtillery">
+    <Position X="17.25" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>HeavyArtillery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SomeGarbageLibrary.ArtilleryDecorator">
+    <Position X="21.5" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ArtilleryDecorator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SomeGarbageLibrary.IncreasedReloadSpeedArtillery">
+    <Position X="19.75" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IncreasedReloadSpeedArtillery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SomeGarbageLibrary.IncreasedArmorArtillery">
+    <Position X="21.5" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IncreasedArmorArtillery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SomeGarbageLibrary.IncreasedAmmoArtillery">
+    <Position X="23.25" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>IncreasedAmmoArtillery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SomeGarbageLibrary.GameObject">
+    <Position X="15.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAACABAQAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SomeGarbageLibrary.Collider">
+    <Position X="17.75" Y="4.75" Width="1.5" />
+    <InheritanceLine Type="SomeGarbageLibrary.Component" FixedToPoint="true">
+      <Path>
+        <Point X="19.5" Y="3.603" />
+        <Point X="19.5" Y="4.375" />
+        <Point X="18.438" Y="4.375" />
+        <Point X="18.438" Y="4.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAgAAAAAAAAAAAABAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Collider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SomeGarbageLibrary.BoxCollider">
+    <Position X="17.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAQAQAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BoxCollider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SomeGarbageLibrary.Component">
+    <Position X="18.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Component.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SomeGarbageLibrary.Rigidbody">
+    <Position X="19.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAgAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Rigidbody.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SomeGarbageLibrary.Transform">
+    <Position X="21.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAkAAKAIAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Transform.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SomeGarbageLibrary.Bonus">
+    <Position X="25.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bonus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SomeGarbageLibrary.ArmorBonus">
+    <Position X="23.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ArmorBonus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SomeGarbageLibrary.ReloadSpeedBonus">
+    <Position X="25.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ReloadSpeedBonus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SomeGarbageLibrary.AmmoBonus">
+    <Position X="27" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AmmoBonus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SomeGarbageLibrary.BonusFactory">
+    <Position X="31" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BonusFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SomeGarbageLibrary.ArmorBonusFactory">
+    <Position X="29.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ArmorBonusFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SomeGarbageLibrary.ReloadSpeedBonusFactory">
+    <Position X="31" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ReloadSpeedBonusFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SomeGarbageLibrary.AmmoBonusFactory">
+    <Position X="32.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AmmoBonusFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SomeGarbageLibrary.Bullet">
+    <Position X="11.75" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAgAAAAAAAAAABAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bullet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SomeGarbageLibrary.LightBullet">
+    <Position X="10" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LightBullet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SomeGarbageLibrary.MediumBullet">
+    <Position X="11.75" Y="14.5" Width="1.5" />
+    <InheritanceLine Type="SomeGarbageLibrary.Bullet" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="12.5" Y="13.771" />
+        <Point X="12.5" Y="14.125" />
+        <Point X="12.5" Y="14.125" />
+        <Point X="12.5" Y="14.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MediumBullet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SomeGarbageLibrary.HeavyBullet">
+    <Position X="13.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>HeavyBullet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SomeGarbageLibrary.Airplane">
+    <Position X="15.5" Y="8.5" Width="1.5" />
+    <InheritanceLine Type="SomeGarbageLibrary.GameObject" ManuallyRouted="true">
+      <Path>
+        <Point X="16.25" Y="10.75" />
+        <Point X="16.25" Y="10.377" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Airplane.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SomeGarbageLibrary.Wall">
+    <Position X="11" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Wall.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SomeGarbageLibrary.PolygonCollider">
+    <Position X="15.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PolygonCollider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="SomeGarbageLibrary.IMovable">
+    <Position X="18" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IMovable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="SomeGarbageLibrary.Direction">
+    <Position X="18" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAACACAAAAAAAI=</HashCode>
+      <FileName>Direction.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

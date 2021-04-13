@@ -1,0 +1,12 @@
+C:\Users\Phoenix\Desktop\ArtilleryGame\GraphicsLibrary\bin\Debug\GraphicsLibrary.dll
+C:\Users\Phoenix\Desktop\ArtilleryGame\GraphicsLibrary\bin\Debug\GraphicsLibrary.pdb
+C:\Users\Phoenix\Desktop\ArtilleryGame\GraphicsLibrary\bin\Debug\OpenTK.dll
+C:\Users\Phoenix\Desktop\ArtilleryGame\GraphicsLibrary\bin\Debug\OpenTK.pdb
+C:\Users\Phoenix\Desktop\ArtilleryGame\GraphicsLibrary\bin\Debug\OpenTK.xml
+C:\Users\Phoenix\Desktop\ArtilleryGame\GraphicsLibrary\obj\Debug\GraphicsLibrary.csprojAssemblyReference.cache
+C:\Users\Phoenix\Desktop\ArtilleryGame\GraphicsLibrary\obj\Debug\GraphicsLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Phoenix\Desktop\ArtilleryGame\GraphicsLibrary\obj\Debug\GraphicsLibrary.csproj.CopyComplete
+C:\Users\Phoenix\Desktop\ArtilleryGame\GraphicsLibrary\obj\Debug\GraphicsLibrary.dll
+C:\Users\Phoenix\Desktop\ArtilleryGame\GraphicsLibrary\obj\Debug\GraphicsLibrary.pdb
+C:\Users\Phoenix\Desktop\ArtilleryGame\GraphicsLibrary\bin\Debug\SomeGarbageLibrary.dll
+C:\Users\Phoenix\Desktop\ArtilleryGame\GraphicsLibrary\bin\Debug\SomeGarbageLibrary.pdb

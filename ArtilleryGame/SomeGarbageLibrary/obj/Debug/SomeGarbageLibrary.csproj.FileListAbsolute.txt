@@ -1,0 +1,10 @@
+C:\Users\Phoenix\Desktop\ArtilleryGame\SomeGarbageLibrary\bin\Debug\SomeGarbageLibrary.dll
+C:\Users\Phoenix\Desktop\ArtilleryGame\SomeGarbageLibrary\bin\Debug\SomeGarbageLibrary.pdb
+C:\Users\Phoenix\Desktop\ArtilleryGame\SomeGarbageLibrary\bin\Debug\OpenTK.dll
+C:\Users\Phoenix\Desktop\ArtilleryGame\SomeGarbageLibrary\bin\Debug\OpenTK.pdb
+C:\Users\Phoenix\Desktop\ArtilleryGame\SomeGarbageLibrary\bin\Debug\OpenTK.xml
+C:\Users\Phoenix\Desktop\ArtilleryGame\SomeGarbageLibrary\obj\Debug\SomeGarbageLibrary.csprojAssemblyReference.cache
+C:\Users\Phoenix\Desktop\ArtilleryGame\SomeGarbageLibrary\obj\Debug\SomeGarbageLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Phoenix\Desktop\ArtilleryGame\SomeGarbageLibrary\obj\Debug\SomeGarbageLibrary.csproj.CopyComplete
+C:\Users\Phoenix\Desktop\ArtilleryGame\SomeGarbageLibrary\obj\Debug\SomeGarbageLibrary.dll
+C:\Users\Phoenix\Desktop\ArtilleryGame\SomeGarbageLibrary\obj\Debug\SomeGarbageLibrary.pdb

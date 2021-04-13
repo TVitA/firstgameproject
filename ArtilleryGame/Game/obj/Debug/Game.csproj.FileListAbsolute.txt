@@ -1,0 +1,22 @@
+C:\Users\Phoenix\Desktop\ArtilleryGame\Game\obj\Debug\Game.csprojAssemblyReference.cache
+C:\Users\Phoenix\Desktop\ArtilleryGame\Game\obj\Debug\Game.Properties.Resources.resources
+C:\Users\Phoenix\Desktop\ArtilleryGame\Game\obj\Debug\Game.csproj.GenerateResource.cache
+C:\Users\Phoenix\Desktop\ArtilleryGame\Game\obj\Debug\Game.csproj.CoreCompileInputs.cache
+C:\Users\Phoenix\Desktop\ArtilleryGame\Game\bin\Debug\Game.exe.config
+C:\Users\Phoenix\Desktop\ArtilleryGame\Game\bin\Debug\Game.exe
+C:\Users\Phoenix\Desktop\ArtilleryGame\Game\bin\Debug\Game.pdb
+C:\Users\Phoenix\Desktop\ArtilleryGame\Game\bin\Debug\OpenTK.dll
+C:\Users\Phoenix\Desktop\ArtilleryGame\Game\bin\Debug\SomeGarbageLibrary.dll
+C:\Users\Phoenix\Desktop\ArtilleryGame\Game\bin\Debug\SomeGarbageLibrary.pdb
+C:\Users\Phoenix\Desktop\ArtilleryGame\Game\bin\Debug\OpenTK.pdb
+C:\Users\Phoenix\Desktop\ArtilleryGame\Game\bin\Debug\OpenTK.xml
+C:\Users\Phoenix\Desktop\ArtilleryGame\Game\obj\Debug\Game.csproj.CopyComplete
+C:\Users\Phoenix\Desktop\ArtilleryGame\Game\obj\Debug\Game.exe
+C:\Users\Phoenix\Desktop\ArtilleryGame\Game\obj\Debug\Game.pdb
+C:\Users\Phoenix\Desktop\ArtilleryGame\Game\bin\Debug\GraphicsLibrary.dll
+C:\Users\Phoenix\Desktop\ArtilleryGame\Game\bin\Debug\GraphicsLibrary.pdb
+C:\Users\Phoenix\Desktop\ArtilleryGame\Game\bin\Debug\Content\tiles.jpg
+C:\Users\Phoenix\Desktop\ArtilleryGame\Game\bin\Debug\Content\Artillery1.jpg
+C:\Users\Phoenix\Desktop\ArtilleryGame\Game\bin\Debug\Content\Artillery2.jpg
+C:\Users\Phoenix\Desktop\ArtilleryGame\Game\bin\Debug\Content\Floor.jpg
+C:\Users\Phoenix\Desktop\ArtilleryGame\Game\bin\Debug\Content\Center wall.jpg

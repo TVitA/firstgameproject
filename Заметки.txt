@@ -1,0 +1,3 @@
+Add event model:
+    -> Add event OnUpdate in Engine;
+    -> Add opportunity added "void Update(Object sender, SomeEventArgs e)" method in GameObject and child classes;
