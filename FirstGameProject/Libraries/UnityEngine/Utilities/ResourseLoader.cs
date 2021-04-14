@@ -18,7 +18,7 @@ namespace UnityEngine.Utilities
             TextureMinFilter textureMinFilter = TextureMinFilter.Linear,
             TextureMagFilter textureMagFilter = TextureMagFilter.Linear)
         {
-            if (Texture2D.TryGetByName(path, out Texture2D texture))
+            if (Texture2D.TryGetByPath(path, out Texture2D texture))
             {
                 return texture;
             }

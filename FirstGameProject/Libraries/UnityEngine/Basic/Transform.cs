@@ -6,14 +6,14 @@ namespace UnityEngine.Basic
     public sealed class Transform : Object
     {
         private Vector2 position;
-        public Vector2 rotation;
+        public Single rotation;
         public Vector2 scale;
 
         public Transform()
             : base()
         {
             this.position = new Vector2(0.0f, 0.0f);
-            this.rotation = new Vector2(0.0f, 0.0f);
+            this.rotation = 0.0f;
             this.scale = new Vector2(1.0f, 1.0f);
         }
 
@@ -24,7 +24,7 @@ namespace UnityEngine.Basic
             set => position = value;
         }
 
-        public Vector2 Rotation
+        public Single Rotation
         {
             get => rotation;
 

@@ -6,10 +6,13 @@ namespace UnityEngine.Basic
     {
         private readonly GameObject owner;
 
+        private Boolean enabled;
+
         private protected GameComponent(GameObject owner)
             : base()
         {
             this.owner = owner;
+            enabled = true;
         }
 
         ~GameComponent()
@@ -17,7 +20,14 @@ namespace UnityEngine.Basic
             Dispose(false);
         }
 
-        public Boolean Enabled { get; set; }
+        public GameObject Owner => owner;
+
+        public Boolean Enabled
+        {
+            get => enabled;
+
+            set => enabled = false;
+        }
 
         internal abstract void CallComponent(Double deltaTime);
 

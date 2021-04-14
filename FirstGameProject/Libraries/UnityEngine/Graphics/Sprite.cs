@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Drawing;
+
 using OpenTK;
+
 using UnityEngine.Utilities;
 
 namespace UnityEngine.Graphics
@@ -19,8 +21,13 @@ namespace UnityEngine.Graphics
         private Single rotation;
         private Single textureRotation;
 
+        private Vector2 offset;
+        private Vector2 rotationPoint;
+
         private Boolean flipX;
         private Boolean flipY;
+
+        private Rectangle? drawingRectangle;
 
         internal Sprite(Texture2D texture)
             : base()
@@ -35,11 +42,17 @@ namespace UnityEngine.Graphics
             this.scale = Vector2.One;
             this.width = texture.Width;
             this.height = texture.Height;
+
+            this.offset = Vector2.Zero;
+
+            this.drawingRectangle = null;
         }
 
         internal Sprite(Texture2D texture, Rectangle rect)
             : this(texture)
         {
+            this.drawingRectangle = rect;
+
             this.width = rect.Width;
             this.height = rect.Height;
         }
@@ -126,6 +139,20 @@ namespace UnityEngine.Graphics
             set => textureRotation = value;
         }
 
+        public Vector2 Offset
+        {
+            get => offset;
+
+            set => offset = value;
+        }
+
+        public Vector2 RotationPoint
+        {
+            get => rotationPoint;
+
+            set => rotationPoint = value;
+        }
+
         public Boolean FlipX
         {
             get => flipX;
@@ -140,6 +167,13 @@ namespace UnityEngine.Graphics
             set => flipY = value;
         }
 
+        public Rectangle? DrawingRectangle
+        {
+            get => drawingRectangle;
+
+            set => drawingRectangle = value;
+        }
+
         public void Dispose()
         {
             Dispose(true);
@@ -147,7 +181,7 @@ namespace UnityEngine.Graphics
             GC.SuppressFinalize(this);
         }
 
-        public void Dispose(Boolean disposing)
+        private void Dispose(Boolean disposing)
         {
             if (!isDisposed)
             {

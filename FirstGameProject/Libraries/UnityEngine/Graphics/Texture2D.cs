@@ -45,7 +45,7 @@ namespace UnityEngine.Graphics
 
         public String Path => Path;
 
-        public static System.Boolean TryGetByName(String path, out Texture2D texture)
+        public static System.Boolean TryGetByPath(String path, out Texture2D texture)
         {
             if (textures.TryGetValue(path, out texture))
             {
