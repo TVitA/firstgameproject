@@ -47,7 +47,9 @@
   <ItemGroup>
     <Compile Include="Basic\GameComponent.cs" />
     <Compile Include="Basic\GameObject.cs" />
+    <Compile Include="Basic\RotationEventArgs.cs" />
     <Compile Include="Basic\Transform.cs" />
+    <Compile Include="Exceptions\DublicateComponentException.cs" />
     <Compile Include="GameEngine.cs" />
     <Compile Include="Graphics\Animator.cs" />
     <Compile Include="Graphics\Sprite.cs" />
@@ -57,6 +59,7 @@
     <Compile Include="Physics\BaseColliderClasses\AxisAlignedBoundingBox.cs" />
     <Compile Include="Physics\BaseColliderClasses\Collider.cs" />
     <Compile Include="Physics\BaseColliderClasses\PolygonCollider.cs" />
+    <Compile Include="Physics\BoxCollider.cs" />
     <Compile Include="Physics\Rigidbody.cs" />
     <Compile Include="Physics\TriggerEnterEventArgs.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -71,8 +74,6 @@
     <None Include="OpenTK.dll.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Exceptions\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

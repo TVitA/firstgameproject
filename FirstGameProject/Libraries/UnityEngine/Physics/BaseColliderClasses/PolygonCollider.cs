@@ -142,6 +142,7 @@ namespace UnityEngine.Physics.BaseColliderClasses
                         if (IsTrigger || polygonCollider.IsTrigger)
                         {
                             Rigidbody.TriggerNotify(polygonCollider);
+
                             polygonCollider.Rigidbody.TriggerNotify(this);
                         }
                         else
@@ -150,14 +151,16 @@ namespace UnityEngine.Physics.BaseColliderClasses
                             {
                                 Rigidbody.Owner.Transform.Position += -dir2 * Math.Max(one, two);
 
+                                var velocity = Rigidbody.Velocity;
+
                                 if (dir1.X != 0)
                                 {
-                                    Rigidbody.Velocity.X = 0.0f;
+                                    velocity.X = 0.0f;
                                 }
 
                                 if (dir1.Y != 0)
                                 {
-                                    Rigidbody.Velocity.Y = 0.0f;
+                                    velocity.Y = 0.0f;
                                 }
                             }
 
@@ -165,14 +168,16 @@ namespace UnityEngine.Physics.BaseColliderClasses
                             {
                                 polygonCollider.Rigidbody.Owner.Transform.Position += -dir1 * Math.Max(one, two);
 
+                                var velocity = polygonCollider.Rigidbody.Velocity;
+
                                 if (dir2.X != 0)
                                 {
-                                    polygonCollider.Rigidbody.Velocity.X = 0.0f;
+                                    velocity.X = 0.0f;
                                 }
 
                                 if (dir2.Y != 0)
                                 {
-                                    polygonCollider.Rigidbody.Velocity.Y = 0.0f;
+                                    velocity.Y = 0.0f;
                                 }
                             }
                         }

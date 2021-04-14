@@ -1,0 +1,17 @@
+C:\Users\Phoenix\Desktop\First game project\FirstGameProject\ArtilleryGame\bin\Debug\ArtilleryGame.exe.config
+C:\Users\Phoenix\Desktop\First game project\FirstGameProject\ArtilleryGame\bin\Debug\ArtilleryGame.exe
+C:\Users\Phoenix\Desktop\First game project\FirstGameProject\ArtilleryGame\bin\Debug\ArtilleryGame.pdb
+C:\Users\Phoenix\Desktop\First game project\FirstGameProject\ArtilleryGame\bin\Debug\OpenTK.dll
+C:\Users\Phoenix\Desktop\First game project\FirstGameProject\ArtilleryGame\bin\Debug\UnityEngine.dll
+C:\Users\Phoenix\Desktop\First game project\FirstGameProject\ArtilleryGame\bin\Debug\UnityEngine.pdb
+C:\Users\Phoenix\Desktop\First game project\FirstGameProject\ArtilleryGame\bin\Debug\OpenTK.pdb
+C:\Users\Phoenix\Desktop\First game project\FirstGameProject\ArtilleryGame\bin\Debug\OpenTK.xml
+C:\Users\Phoenix\Desktop\First game project\FirstGameProject\ArtilleryGame\obj\Debug\ArtilleryGame.csprojAssemblyReference.cache
+C:\Users\Phoenix\Desktop\First game project\FirstGameProject\ArtilleryGame\obj\Debug\ArtilleryGame.LauncherForm.resources
+C:\Users\Phoenix\Desktop\First game project\FirstGameProject\ArtilleryGame\obj\Debug\ArtilleryGame.Properties.Resources.resources
+C:\Users\Phoenix\Desktop\First game project\FirstGameProject\ArtilleryGame\obj\Debug\ArtilleryGame.csproj.GenerateResource.cache
+C:\Users\Phoenix\Desktop\First game project\FirstGameProject\ArtilleryGame\obj\Debug\ArtilleryGame.csproj.CoreCompileInputs.cache
+C:\Users\Phoenix\Desktop\First game project\FirstGameProject\ArtilleryGame\obj\Debug\ArtilleryGame.csproj.CopyComplete
+C:\Users\Phoenix\Desktop\First game project\FirstGameProject\ArtilleryGame\obj\Debug\ArtilleryGame.exe
+C:\Users\Phoenix\Desktop\First game project\FirstGameProject\ArtilleryGame\obj\Debug\ArtilleryGame.pdb
+C:\Users\Phoenix\Desktop\First game project\FirstGameProject\ArtilleryGame\bin\Debug\Textures\Background\Background.jpg

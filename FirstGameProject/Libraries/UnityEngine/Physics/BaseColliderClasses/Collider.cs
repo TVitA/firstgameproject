@@ -77,7 +77,7 @@ namespace UnityEngine.Physics.BaseColliderClasses
 
             rigidbody.Owner.OnRotationChanged += (sender, e) =>
             {
-                Rotate(e.deltaRotation);
+                Rotate(e.DeltaRotation);
 
                 aabb = GenerateAABB();
             };

@@ -34,11 +34,11 @@ namespace UnityEngine.Physics.BaseColliderClasses
 
         internal Boolean IsToching(AxisAlignedBoundingBox other)
         {
-            var parentPosX = parentCollider.Rigidbody.owner.position.X;
-            var parentPosY = parentCollider.Rigidbody.owner.position.Y;
+            var parentPosX = parentCollider.Rigidbody.Owner.Transform.Position.X;
+            var parentPosY = parentCollider.Rigidbody.Owner.Transform.Position.Y;
 
-            var otherPosX = other.parentCollider.Rigidbody.owner.position.X;
-            var otherPosY = other.parentCollider.Rigidbody.owner.position.Y;
+            var otherPosX = other.parentCollider.Rigidbody.Owner.Transform.Position.X;
+            var otherPosY = other.parentCollider.Rigidbody.Owner.Transform.Position.Y;
 
             if (max.X + parentPosX < other.min.X + otherPosX ||
                 min.X + parentPosX > other.max.X + otherPosX)

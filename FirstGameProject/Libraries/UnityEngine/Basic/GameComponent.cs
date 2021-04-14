@@ -29,6 +29,8 @@ namespace UnityEngine.Basic
             set => enabled = false;
         }
 
+        internal virtual void OnRegisterComponent() { }
+
         internal abstract void CallComponent(Double deltaTime);
 
         protected abstract void Dispose(Boolean disposing);

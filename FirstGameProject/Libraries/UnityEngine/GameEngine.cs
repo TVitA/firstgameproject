@@ -1,15 +1,13 @@
 ﻿using System;
 using System.Drawing;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 using OpenTK;
 using OpenTK.Graphics;
 using OpenTK.Graphics.OpenGL;
 
 using UnityEngine.Basic;
+using UnityEngine.Physics.BaseColliderClasses;
 using UnityEngine.Graphics;
 
 namespace UnityEngine
@@ -21,11 +19,24 @@ namespace UnityEngine
 
         private Color clearColor;
 
+        private System.Boolean drawColliders;
+
+        private static Int32 clientWidth;
+        private static Int32 clientHeight;
+
         public GameEngine()
             : base(800, 600, new GraphicsMode(32, 24, 0, 8))
         {
             this.gameObjectsToDelete = new Queue<GameObject>();
             this.gameObjects = new List<GameObject>();
+
+            drawColliders = false;
+        }
+
+        public GameEngine(System.Boolean drawColliders)
+            : this()
+        {
+            drawColliders = true;
         }
 
         public List<GameObject> GameObjects => gameObjects;
@@ -39,9 +50,14 @@ namespace UnityEngine
             set => clearColor = value;
         }
 
+        public static Int32 ClientWidth => clientWidth;
+
+        public static Int32 ClientHeight => clientHeight;
+
         public void RegisterObject(GameObject gameObject)
         {
             gameObjects.Add(gameObject);
+            gameObject.OnRegisterObject();
         }
 
         public void UnregisterObject(GameObject gameObject)
@@ -87,7 +103,13 @@ namespace UnityEngine
         {
             base.OnRenderFrame(e);
 
-            // Прорисовка
+            if (drawColliders)
+            {
+                for (int i = 0; i < Collider.allColliders.Count; i++)
+                {
+                    Collider.allColliders[i].Draw();
+                }
+            }
 
             SwapBuffers();
         }
@@ -103,6 +125,9 @@ namespace UnityEngine
             GL.Ortho(0.0, this.Width, 0.0, this.Height, 0.0, 1.0);
 
             GL.MatrixMode(MatrixMode.Modelview);
+
+            clientWidth = ClientSize.Width;
+            clientHeight = ClientSize.Height;
         }
 
         protected override void OnUnload(EventArgs e)
@@ -112,6 +137,7 @@ namespace UnityEngine
             foreach (GameObject gameObject in gameObjects)
             {
                 gameObject.Destroy(this);
+
                 UnregisterObject(gameObject);
             }
 

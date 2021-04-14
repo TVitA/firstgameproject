@@ -6,8 +6,8 @@ namespace UnityEngine.Basic
     public sealed class Transform : Object
     {
         private Vector2 position;
-        public Single rotation;
-        public Vector2 scale;
+        private Single rotation;
+        private Vector2 scale;
 
         public Transform()
             : base()

@@ -1,0 +1,10 @@
+C:\Users\Phoenix\Desktop\First game project\FirstGameProject\Libraries\UnityEngine\bin\Debug\UnityEngine.dll
+C:\Users\Phoenix\Desktop\First game project\FirstGameProject\Libraries\UnityEngine\bin\Debug\UnityEngine.pdb
+C:\Users\Phoenix\Desktop\First game project\FirstGameProject\Libraries\UnityEngine\bin\Debug\OpenTK.dll
+C:\Users\Phoenix\Desktop\First game project\FirstGameProject\Libraries\UnityEngine\bin\Debug\OpenTK.pdb
+C:\Users\Phoenix\Desktop\First game project\FirstGameProject\Libraries\UnityEngine\bin\Debug\OpenTK.xml
+C:\Users\Phoenix\Desktop\First game project\FirstGameProject\Libraries\UnityEngine\obj\Debug\UnityEngine.csprojAssemblyReference.cache
+C:\Users\Phoenix\Desktop\First game project\FirstGameProject\Libraries\UnityEngine\obj\Debug\UnityEngine.csproj.CoreCompileInputs.cache
+C:\Users\Phoenix\Desktop\First game project\FirstGameProject\Libraries\UnityEngine\obj\Debug\UnityEngine.csproj.CopyComplete
+C:\Users\Phoenix\Desktop\First game project\FirstGameProject\Libraries\UnityEngine\obj\Debug\UnityEngine.dll
+C:\Users\Phoenix\Desktop\First game project\FirstGameProject\Libraries\UnityEngine\obj\Debug\UnityEngine.pdb
